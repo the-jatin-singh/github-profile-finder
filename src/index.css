@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(22, 20, 24);
+  color: #eee;
+  user-select: none;
+}
+
+h1{
+  font-size: 20rem;
+  filter: opacity(0.5);
+  font-weight: 700;
+}
+.bg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+ 
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, 0.097);
+  border-radius:  5px;
+  background-color: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+.link-to-profile {
+  filter: invert();
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
