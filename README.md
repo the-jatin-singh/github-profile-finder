@@ -1,3 +1,6 @@
+## Screenshots
+
+![GitHub User Card](./Screenshot.png)
 # GitHub User Card UI
 This project allows users to enter a GitHub username, and it displays a nicely designed card with the user's public information from GitHub. The information displayed includes the user's avatar image, username, name, the number of public repositories, the number of public gists, and the date the GitHub profile was created.
 
@@ -24,6 +27,4 @@ To get started with this project, follow these steps:
 ## Technologies Used
 1. React: JavaScript library for building user interfaces.
 2. TailwindCSS: For StylingAxios.
-## Screenshots
 
-![GitHub User Card](./screenshot.png)
